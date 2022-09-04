@@ -45,7 +45,6 @@
       ADMIN_USERNAME: "{{ admin_username }}"
       ADMIN_PASSWORD: "{{ admin_password }}"
       VIRTUAL_HOST: "{{ domain_name }}"
-      VIRTUAL_PATH: "{{ subpath }}"
       VIRTUAL_DEST: "/"
       LETSENCRYPT_HOST: "{{ domain_name }}"
       VIRTUAL_PORT: "80"
